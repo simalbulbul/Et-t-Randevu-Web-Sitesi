@@ -1,0 +1,45 @@
+.header-container{
+    height: 70px;
+    color: aliceblue;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    margin-top: 0;
+    
+}
+
+.logo{
+
+    color: white;
+    margin-top: 15px;
+    font-family: Montserrat;
+}
+
+/****************************/
+
+
+.form-label{
+margin-top: 20px;
+width: 168x;
+height: 20px;}
+
+
+/**********************/
+
+
+.metin {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+.ogrenciFoto {
+    max-width: 100px; /* Resmin maksimum genişliği */
+    max-height: 100px; /* Resmin maksimum yüksekliği */
+    /* veya
+    width: 100px; 
+    height: 100px;
+    */
+}
