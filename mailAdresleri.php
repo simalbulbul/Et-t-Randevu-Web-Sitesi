@@ -117,11 +117,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
     </div >
 
-  <!-- 
- <form method="post" action="index.php">
-    <input type="submit" value="Çıkış Yap">
 </form>
--->
-</body>
 
+</body>
+MAİL ADRESLERİ
 </html>

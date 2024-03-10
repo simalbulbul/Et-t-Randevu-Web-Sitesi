@@ -33,10 +33,7 @@
 }
 
 .navbar{
-    float:left;
 
-height: 1000px;
-width: 325px;
 height: 100pc;
 width: 20pc;
 background-color: bisque;
@@ -117,11 +114,10 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
     </div >
 
-  <!-- 
- <form method="post" action="index.php">
+    <form method="post" action="index.php">
     <input type="submit" value="Çıkış Yap">
 </form>
--->
+GEÇMİŞ RANDEVULAR
 </body>
 
 </html>

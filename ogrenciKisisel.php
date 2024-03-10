@@ -117,11 +117,11 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
     </div >
 
-  <!-- 
- <form method="post" action="index.php">
+    <form method="post" action="index.php">
     <input type="submit" value="Çıkış Yap">
 </form>
--->
+
+KİŞİSEL BİLGİLERİNİZ
 </body>
 
 </html>

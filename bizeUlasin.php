@@ -32,13 +32,12 @@
     font-size: x-large;
 }
 
+
 .navbar{
     float:left;
 
 height: 1000px;
 width: 325px;
-height: 100pc;
-width: 20pc;
 background-color: bisque;
 text-align: center;
 }
@@ -57,6 +56,14 @@ text-align: center;
     margin: 5px; /* Butonlar arası boşluk */
     font-size: 18px; /* Buton metin boyutu */ }
 
+
+
+
+    .iletisim-formu{ margin-top: 0;
+        width:690px;
+height:590px;
+        float: right;
+    }
     </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,12 +123,27 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
             </div>
 
     </div >
+<section>
 
-  <!-- 
- <form method="post" action="index.php">
-    <input type="submit" value="Çıkış Yap">
-</form>
--->
+
+
+
+<div class="iletisim-formu">
+  <h2>İletişim Formu</h2>
+  <form action="iletisim.php" method="post">
+    <label for="ad">Adınız:</label><br>
+    <input type="text" id="ad" name="ad" required><br>
+    <label for="soyad">Soyadınız:</label><br>
+    <input type="text" id="soyad" name="soyad" required><br>
+    <label for="email">E-posta Adresiniz:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="mesaj">Mesajınız:</label><br>
+    <textarea id="mesaj" name="mesaj" rows="4" required></textarea><br><br>
+    <input type="submit" value="Gönder">
+  </form>
+</div>
+
+</section>
 </body>
 
 </html>
